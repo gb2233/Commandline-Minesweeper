@@ -9,7 +9,7 @@ namespace Commandline_Minesweeper
     class Game
     {
         static Random rnd = new Random();
-        const int MINES = 2;
+        const int MINES = 20;
         const int XSIZE = 20;
         const int YSIZE = 10;
         int remainingMines = MINES;
